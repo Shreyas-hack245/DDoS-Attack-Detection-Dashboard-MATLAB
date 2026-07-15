@@ -1,0 +1,31 @@
+DDoS Detection Dashboard v3 - Final Report
+Generated: 15-Jul-2026 15:00:17
+
+Normal Events     : 39
+Attack Events     : 11
+Blocked IPs       : 0
+Peak Traffic      : 2399 pkt/s at t=28
+Avg / Max Botnet  : 4.7 / 6 simultaneous attacker IPs
+
+Rule-Based Detector:
+  Accuracy  : 100.0%
+  Precision : 100.0%
+  Recall    : 100.0%
+
+ML Detector (mini Isolation Forest):
+  Accuracy  : 74.0%
+  Precision : 37.5%
+  Recall    : 27.3%
+
+Protocol Distribution:
+TCP  : 49
+UDP  : 30
+ICMP : 12
+
+Attack Origin by Region:
+N. America  : 6 offenses
+S. America  : 11 offenses
+Europe      : 10 offenses
+Africa      : 5 offenses
+Asia        : 15 offenses
+Oceania     : 5 offenses
